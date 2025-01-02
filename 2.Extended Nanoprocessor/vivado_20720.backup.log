@@ -1,0 +1,131 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Wed Apr 24 17:41:54 2024
+# Process ID: 20720
+# Current directory: G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18152 G:\CS1050 - Computer Organization and Digital Design\Labs\Nanoprocessor_Project\Nanoprocessor_Project.xpr
+# Log file: G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Project/vivado.log
+# Journal file: G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Project/Nanoprocessor_Project.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/User/Desktop/Nanoprocessor_Project' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'I:/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 848.895 ; gain = 119.473
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Project/Nanoprocessor_Project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Nanoprocessor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Project/Nanoprocessor_Project.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Nanoprocessor_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Project/Nanoprocessor_Project.srcs/sources_1/new/Add_Sub_4bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Add_Sub_4bit
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Project/Nanoprocessor_Project.srcs/sources_1/new/Adder_3bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Adder_3bit
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Project/Nanoprocessor_Project.srcs/sources_1/imports/new/D_FF.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity D_FF
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Project/Nanoprocessor_Project.srcs/sources_1/imports/new/Decoder_2_to_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_2_to_4
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Project/Nanoprocessor_Project.srcs/sources_1/imports/new/Decoder_3_to_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_3_to_8
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Project/Nanoprocessor_Project.srcs/sources_1/new/FA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FA
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Project/Nanoprocessor_Project.srcs/sources_1/new/HA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity HA
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Project/Nanoprocessor_Project.srcs/sources_1/new/Instruction_Decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Instruction_Decoder
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Project/Nanoprocessor_Project.srcs/sources_1/imports/new/LUT.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Project/Nanoprocessor_Project.srcs/sources_1/imports/new/LUT_16_7.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT_16_7
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Project/Nanoprocessor_Project.srcs/sources_1/new/Mux_2_Way_3_Bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_2_Way_3_Bit
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Project/Nanoprocessor_Project.srcs/sources_1/new/Mux_2_Way_4_Bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_2_Way_4_Bit
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Project/Nanoprocessor_Project.srcs/sources_1/new/Mux_8_Way_4_Bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_8_Way_4_Bit
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Project/Nanoprocessor_Project.srcs/sources_1/new/Nanoprocessor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Nanoprocessor
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Project/Nanoprocessor_Project.srcs/sources_1/new/Program_Counter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Program_Counter
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Project/Nanoprocessor_Project.srcs/sources_1/imports/new/Reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Reg
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Project/Nanoprocessor_Project.srcs/sources_1/new/Register_Bank.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Register_Bank
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Project/Nanoprocessor_Project.srcs/sources_1/imports/new/Slow_Clk.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Slow_Clk
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Project/Nanoprocessor_Project.srcs/sim_1/new/TB_Nanoprocessor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_Nanoprocessor
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Project/Nanoprocessor_Project.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: I:/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto f5d1d4f49fba4269b6b2ec9504bba21b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Nanoprocessor_behav xil_defaultlib.TB_Nanoprocessor -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_2_to_4 [decoder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_to_8 [decoder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_Bank [register_bank_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_Way_4_Bit [mux_2_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_Way_4_Bit [mux_8_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.Add_Sub_4bit [add_sub_4bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder [instruction_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Adder_3bit [adder_3bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_Way_3_Bit [mux_2_way_3_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.D_FF [d_ff_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_Counter [program_counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT [lut_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.Nanoprocessor [nanoprocessor_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_nanoprocessor
+Built simulation snapshot TB_Nanoprocessor_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 864.922 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Project/Nanoprocessor_Project.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_Nanoprocessor_behav -key {Behavioral:sim_1:Functional:TB_Nanoprocessor} -tclbatch {TB_Nanoprocessor.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source TB_Nanoprocessor.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 2000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Nanoprocessor_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 2000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:17 . Memory (MB): peak = 883.695 ; gain = 18.773
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 24 18:04:04 2024...

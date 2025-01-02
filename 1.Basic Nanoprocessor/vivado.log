@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sat May  4 13:17:37 2024
+# Process ID: 1396
+# Current directory: G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Design_Competition/Nanoprocessor_Project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16780 G:\CS1050 - Computer Organization and Digital Design\Labs\Nanoprocessor_Design_Competition\Nanoprocessor_Project\Nanoprocessor_Project.xpr
+# Log file: G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Design_Competition/Nanoprocessor_Project/vivado.log
+# Journal file: G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Design_Competition/Nanoprocessor_Project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Design_Competition/Nanoprocessor_Project/Nanoprocessor_Project.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Design_Competition/Nanoprocessor_Project'
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'open_project' was cancelled
+open_project {C:/Users/User/Desktop/Backup NanoP Project/Nanoprocessor_Project/Nanoprocessor_Project.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFreset_run synth_1
+launch_runs impl_1 -jobs 4
+[Sat May  4 13:19:57 2024] Launched synth_1...
+Run output will be captured here: G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Design_Competition/Nanoprocessor_Project/Nanoprocessor_Project.runs/synth_1/runme.log
+[Sat May  4 13:19:57 2024] Launched impl_1...
+Run output will be captured here: G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Design_Competition/Nanoprocessor_Project/Nanoprocessor_Project.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sat May  4 13:22:08 2024] Launched impl_1...
+Run output will be captured here: G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Design_Competition/Nanoprocessor_Project/Nanoprocessor_Project.runs/impl_1/runme.log
+file copy -force {G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Design_Competition/Nanoprocessor_Project/Nanoprocessor_Project.runs/impl_1/Nanoprocessor.bit} {G:/CS1050 - Computer Organization and Digital Design/Labs/Lab Reports/Nanoprocessor Project/Nanoprocessor_Project_Bitstream.bit}
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat May  4 13:23:55 2024...

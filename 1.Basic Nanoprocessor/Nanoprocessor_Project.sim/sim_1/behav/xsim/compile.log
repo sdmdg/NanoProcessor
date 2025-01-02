@@ -1,0 +1,38 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Design_Competition/Nanoprocessor_Project/Nanoprocessor_Project.srcs/sources_1/new/Add_Sub_4bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Add_Sub_4bit
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Design_Competition/Nanoprocessor_Project/Nanoprocessor_Project.srcs/sources_1/new/Adder_3bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Adder_3bit
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Design_Competition/Nanoprocessor_Project/Nanoprocessor_Project.srcs/sources_1/imports/new/D_FF.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity D_FF
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Design_Competition/Nanoprocessor_Project/Nanoprocessor_Project.srcs/sources_1/imports/new/Decoder_2_to_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_2_to_4
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Design_Competition/Nanoprocessor_Project/Nanoprocessor_Project.srcs/sources_1/imports/new/Decoder_3_to_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_3_to_8
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Design_Competition/Nanoprocessor_Project/Nanoprocessor_Project.srcs/sources_1/new/FA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FA
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Design_Competition/Nanoprocessor_Project/Nanoprocessor_Project.srcs/sources_1/new/HA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity HA
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Design_Competition/Nanoprocessor_Project/Nanoprocessor_Project.srcs/sources_1/new/Instruction_Decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Instruction_Decoder
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Design_Competition/Nanoprocessor_Project/Nanoprocessor_Project.srcs/sources_1/imports/new/LUT.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Design_Competition/Nanoprocessor_Project/Nanoprocessor_Project.srcs/sources_1/imports/new/LUT_16_7.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT_16_7
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Design_Competition/Nanoprocessor_Project/Nanoprocessor_Project.srcs/sources_1/new/Mux_2_Way_3_Bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_2_Way_3_Bit
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Design_Competition/Nanoprocessor_Project/Nanoprocessor_Project.srcs/sources_1/new/Mux_2_Way_4_Bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_2_Way_4_Bit
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Design_Competition/Nanoprocessor_Project/Nanoprocessor_Project.srcs/sources_1/new/Mux_8_Way_4_Bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_8_Way_4_Bit
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Design_Competition/Nanoprocessor_Project/Nanoprocessor_Project.srcs/sources_1/new/Nanoprocessor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Nanoprocessor
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Design_Competition/Nanoprocessor_Project/Nanoprocessor_Project.srcs/sources_1/new/Program_Counter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Program_Counter
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Design_Competition/Nanoprocessor_Project/Nanoprocessor_Project.srcs/sources_1/imports/new/Reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Reg
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Design_Competition/Nanoprocessor_Project/Nanoprocessor_Project.srcs/sources_1/new/Register_Bank.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Register_Bank
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Design_Competition/Nanoprocessor_Project/Nanoprocessor_Project.srcs/sources_1/imports/new/Slow_Clk.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Slow_Clk
+INFO: [VRFC 10-163] Analyzing VHDL file "G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Design_Competition/Nanoprocessor_Project/Nanoprocessor_Project.srcs/sim_1/new/TB_Nanoprocessor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_Nanoprocessor

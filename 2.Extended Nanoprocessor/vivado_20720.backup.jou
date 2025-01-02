@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Wed Apr 24 17:41:54 2024
+# Process ID: 20720
+# Current directory: G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18152 G:\CS1050 - Computer Organization and Digital Design\Labs\Nanoprocessor_Project\Nanoprocessor_Project.xpr
+# Log file: G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Project/vivado.log
+# Journal file: G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Project/Nanoprocessor_Project.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source TB_Nanoprocessor.tcl
+close_sim

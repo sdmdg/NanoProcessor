@@ -1,0 +1,151 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 7036
+License: Customer
+
+Current time: 	Fri Apr 26 09:52:30 IST 2024
+Time zone: 	India Standard Time (Asia/Colombo)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 128 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	I:/Vivado/2018.1/tps/win64/jre
+Java executable location: 	I:/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	User
+User home directory: C:/Users/User
+User working directory: C:/Users/User/Desktop/Backup NanoP Project/Nanoprocessor_Project
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: I:/Vivado
+HDI_APPROOT: I:/Vivado/2018.1
+RDI_DATADIR: I:/Vivado/2018.1/data
+RDI_BINDIR: I:/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/User/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/User/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/User/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	I:/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/User/Desktop/Backup NanoP Project/Nanoprocessor_Project/vivado.log
+Vivado journal file location: 	C:/Users/User/Desktop/Backup NanoP Project/Nanoprocessor_Project/vivado.jou
+Engine tmp dir: 	C:/Users/User/Desktop/Backup NanoP Project/Nanoprocessor_Project/.Xil/Vivado-7036-DESKTOP-P5FC37U
+
+GUI allocated memory:	152 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 528 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 41 MB (+40574kb) [00:00:10]
+// [Engine Memory]: 505 MB (+377911kb) [00:00:10]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bv (ch):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\User\Desktop\Backup NanoP Project\Nanoprocessor_Project\Nanoprocessor_Project.xpr. Version: Vivado v2018.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/User/Desktop/Backup NanoP Project/Nanoprocessor_Project/Nanoprocessor_Project.xpr} 
+// [GUI Memory]: 56 MB (+13606kb) [00:00:13]
+// HMemoryUtils.trashcanNow. Engine heap size: 528 MB. GUI used memory: 33 MB. Current time: 4/26/24 9:52:32 AM IST
+// TclEventType: MSGMGR_MOVEMSG
+// [Engine Memory]: 531 MB (+1365kb) [00:00:18]
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/User/Desktop/Backup NanoP Project/Nanoprocessor_Project/Nanoprocessor_Project.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'I:/Vivado/2018.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 594 MB (+38073kb) [00:00:28]
+// HMemoryUtils.trashcanNow. Engine heap size: 610 MB. GUI used memory: 39 MB. Current time: 4/26/24 9:52:48 AM IST
+// Project name: Nanoprocessor_Project; location: C:/Users/User/Desktop/Backup NanoP Project/Nanoprocessor_Project; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:20 . Memory (MB): peak = 786.875 ; gain = 87.125 
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (Nanoprocessor.vhd) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nanoprocessor(Behavioral) (Nanoprocessor.vhd)]", 1, true); // B (D, ch) - Node
+// [GUI Memory]: 62 MB (+3432kb) [00:00:39]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nanoprocessor(Behavioral) (Nanoprocessor.vhd), Slow_Clk0 : Slow_Clk(Behavioral) (Slow_Clk.vhd)]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nanoprocessor(Behavioral) (Nanoprocessor.vhd), Program_ROM : LUT(Behavioral) (LUT.vhd)]", 12, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nanoprocessor(Behavioral) (Nanoprocessor.vhd), Program_ROM : LUT(Behavioral) (LUT.vhd)]", 12, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nanoprocessor(Behavioral) (Nanoprocessor.vhd), Program_ROM : LUT(Behavioral) (LUT.vhd)]", 12, false, false, false, false, false, true); // B (D, ch) - Double Click
+// [GUI Memory]: 67 MB (+1233kb) [00:00:43]
+// [GUI Memory]: 70 MB (+78kb) [00:02:27]
+// [GUI Memory]: 74 MB (+642kb) [00:10:27]
+// [GUI Memory]: 78 MB (+35kb) [00:19:03]
+// [GUI Memory]: 82 MB (+260kb) [00:28:28]
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 40 MB. Current time: 4/26/24 10:22:54 AM IST
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 38 MB. Current time: 4/26/24 10:52:55 AM IST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 39 MB. Current time: 4/27/24 1:52:53 AM IST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 37 MB. Current time: 4/27/24 8:29:19 AM IST
+// [GUI Memory]: 86 MB (+185kb) [22:44:30]
+// WARNING: HTimer (WrapperUtils Delayed Delete Timer) is taking too long to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 38 MB. Current time: 4/27/24 8:59:25 AM IST
+// [GUI Memory]: 91 MB (+643kb) [23:30:34]
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 38 MB. Current time: 4/27/24 9:29:25 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 38 MB. Current time: 4/27/24 9:59:25 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 39 MB. Current time: 4/27/24 10:29:26 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 38 MB. Current time: 4/27/24 10:59:26 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 38 MB. Current time: 4/27/24 11:29:27 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 38 MB. Current time: 4/27/24 11:59:27 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 38 MB. Current time: 4/27/24 12:29:27 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 38 MB. Current time: 4/27/24 12:59:27 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 38 MB. Current time: 4/27/24 1:29:28 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 38 MB. Current time: 4/27/24 1:59:27 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 38 MB. Current time: 4/27/24 2:29:28 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 38 MB. Current time: 4/27/24 2:59:29 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 38 MB. Current time: 4/27/24 3:29:29 PM IST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 39 MB. Current time: 4/27/24 4:03:15 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 38 MB. Current time: 4/27/24 4:33:16 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 38 MB. Current time: 4/27/24 5:03:16 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 39 MB. Current time: 4/27/24 5:50:26 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 38 MB. Current time: 4/27/24 6:20:27 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 38 MB. Current time: 4/27/24 6:50:27 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 38 MB. Current time: 4/27/24 7:20:27 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 38 MB. Current time: 4/27/24 7:50:28 PM IST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 38 MB. Current time: 4/27/24 9:32:31 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 39 MB. Current time: 4/27/24 10:02:32 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 38 MB. Current time: 4/27/24 10:57:32 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 38 MB. Current time: 4/27/24 11:57:35 PM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 37 MB. Current time: 4/28/24 12:57:37 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 38 MB. Current time: 4/28/24 1:58:05 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 38 MB. Current time: 4/28/24 2:57:42 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 38 MB. Current time: 4/28/24 3:48:46 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 38 MB. Current time: 4/28/24 4:18:48 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 38 MB. Current time: 4/28/24 4:48:47 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 38 MB. Current time: 4/28/24 5:18:47 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 38 MB. Current time: 4/28/24 5:48:47 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 38 MB. Current time: 4/28/24 6:18:48 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 39 MB. Current time: 4/28/24 6:48:49 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 617 MB. GUI used memory: 38 MB. Current time: 4/28/24 7:18:50 AM IST

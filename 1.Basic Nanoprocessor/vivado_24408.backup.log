@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Wed May  1 23:50:59 2024
+# Process ID: 24408
+# Current directory: G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Design Competition/Nanoprocessor_Project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14296 G:\CS1050 - Computer Organization and Digital Design\Labs\Nanoprocessor_Design Competition\Nanoprocessor_Project\Nanoprocessor_Project.xpr
+# Log file: G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Design Competition/Nanoprocessor_Project/vivado.log
+# Journal file: G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Design Competition/Nanoprocessor_Project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Design Competition/Nanoprocessor_Project/Nanoprocessor_Project.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'G:/CS1050 - Computer Organization and Digital Design/Labs/Nanoprocessor_Design Competition/Nanoprocessor_Project'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'I:/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 857.258 ; gain = 127.312
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu May  2 10:13:24 2024...

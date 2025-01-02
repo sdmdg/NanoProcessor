@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Webtalk v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Fri May  3 15:31:04 2024
+# Process ID: 19008
+# Current directory: C:/Users/Malaka/Desktop/4 Instruction Nanoprocessor/Nanoprocessor_Project/Nanoprocessor_Project.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/Malaka/Desktop/4 Instruction Nanoprocessor/Nanoprocessor_Project/Nanoprocessor_Project.sim/sim_1/behav/xsim/xsim.dir/TB_Nanoprocessor_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/Malaka/Desktop/4 Instruction Nanoprocessor/Nanoprocessor_Project/Nanoprocessor_Project.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/Malaka/Desktop/4 Instruction Nanoprocessor/Nanoprocessor_Project/Nanoprocessor_Project.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Malaka/Desktop/4 -notrace
+invalid command name "%"
+    while executing
+"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current"
+    (file "C:/Users/Malaka/Desktop/4" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Fri May  3 15:31:04 2024...
