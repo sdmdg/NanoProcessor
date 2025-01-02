@@ -11,7 +11,7 @@
 - [Getting Started](#getting-started)
 
 ## Overview
-This project, developed as part of the **In22-S2-CS1050 Computer Organization and Digital Design** module, involves the design, simulation and implementation of a custom-built nanoprocessor. The processor is capable of executing a variety of arithmetic, logical and control operations, with additional features for enhanced performance and functionality.
+This project, developed as part of the **CS1050 - Computer Organization and Digital Design** module, involves the design, simulation and implementation of a custom-built nanoprocessor. The processor is capable of executing a variety of arithmetic, logical and control operations, with additional features for enhanced performance and functionality.
 
 ## Features
 - **4-bit Arithmetic Unit**: Supports addition and subtraction of signed integers.
@@ -94,8 +94,7 @@ All components were tested and verified using simulation files. Timing diagrams 
 ## Getting Started
 - Clone the repository:
     ```
-    git clone https://github.com/your-repo/nanoprocessor-design.git
-    cd nanoprocessor-design
+    git clone https://github.com/sdmdg/NanoProcessor
     ```
 - Open the project in your preferred VHDL simulation tool (e.g. Xilinx Vivado).
 - Run the testbenches to verify component functionality.
